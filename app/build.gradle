@@ -46,11 +46,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.2.1'
-    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
 
 
     //在build.gradle中，使用Flavor名+Compile来规定特定Flavor所需依赖
-    demoCompile 'com.android.support:design:23.2.1'
+    demoCompile 'com.android.support:design:23.3.0'
     fullCompile 'com.jakewharton:butterknife:6.1.0'
 }
